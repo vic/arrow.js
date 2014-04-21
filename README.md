@@ -16,14 +16,16 @@ This was made by Victor Hugo Borja (vic) under the MIT license. I'm [@vborja](ht
 ### References
 
 
-[Rapperswil, Arrows ](http://wiki.ifs.hsr.ch/SemProgAnTr/files/ArrowsV4Final.pdf "Arrows")
+[Rapperswil: Arrows ](http://wiki.ifs.hsr.ch/SemProgAnTr/files/ArrowsV4Final.pdf "Arrows")
 
-[Hughes, Programming with Arrows](http://www.cse.chalmers.se/~rjmh/afp-arrows.pdf)
+[Hughes: Programming with Arrows](http://www.cse.chalmers.se/~rjmh/afp-arrows.pdf)
 
-[Paterson, Arrows and Computation](http://www.soi.city.ac.uk/~ross/talks/fop.pdf)
+[Paterson: Arrows and Computation](http://www.soi.city.ac.uk/~ross/talks/fop.pdf)
 
 [Arrows at Haskell wiki](http://www.haskell.org/haskellwiki/Arrow)
 
 [Understanding Arrows](http://en.wikibooks.org/wiki/Haskell/Understanding_arrows)
 
-[Khoo et al, Directing Javascript with Arrows](http://www.cs.umd.edu/~jfoster/papers/dls09-arrows.pdf)
+[Khoo et al: Directing Javascript with Arrows](http://www.cs.umd.edu/~jfoster/papers/dls09-arrows.pdf)
+
+[Hudak: Yampa, Arrows, and Robots](http://www.cs.yale.edu/homes/hudak/CS429F04/LectureSlides/YampaForCs429.ppt)
