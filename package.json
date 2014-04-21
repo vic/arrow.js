@@ -1,0 +1,29 @@
+{
+  "name": "arrow.js",
+  "version": "0.0.0",
+  "description": "A tiny concatenative, tacit language built upon Arrowized Functional Reactive Programming theory.",
+  "main": "arrows.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vic/arrow.js.git"
+  },
+  "keywords": [
+    "concatenative",
+    "tacit",
+    "language",
+    "arrows",
+    "AFRP",
+    "FRP",
+    "functional",
+    "reactive"
+  ],
+  "author": "Victor Hugo Borja <vic.borja@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vic/arrow.js/issues"
+  },
+  "homepage": "https://github.com/vic/arrow.js"
+}
