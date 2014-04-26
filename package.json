@@ -25,5 +25,10 @@
   "bugs": {
     "url": "https://github.com/vic/arrow.js/issues"
   },
-  "homepage": "https://github.com/vic/arrow.js"
+  "homepage": "https://github.com/vic/arrow.js",
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "browserify": "*"
+  }
 }
