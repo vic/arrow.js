@@ -44,13 +44,13 @@ describe('Arrow', function () {
     }) 
   })
 
-  describe('.next', function () {
+  describe('.chain', function () {
     it('chains a series of cps functions one after another', function (done) {
       var prod = function (a, b, k) { k(a*b) }
       var twice = function (a, k) { prod(2, a, k) }
       var pow  = function (a, k) { prod(a, a, k) }
       var plus = function (n) { return function (v, k) { k(n + v) } }
-      var arrow = Arrow.next(twice, pow, plus(5), plus(1))
+      var arrow = Arrow.chain(twice, pow, plus(5), plus(1))
       expect(arrow).to.satisfy(Arrow.isArrow)
       arrow(3, function (n) {
         expect(arguments).to.have.length(1)
