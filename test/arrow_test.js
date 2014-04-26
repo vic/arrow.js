@@ -44,6 +44,7 @@ describe('Arrow', function () {
     }) 
   })
 
+
   describe('.chain', function () {
     it('chains a series of cps functions one after another', function (done) {
       var prod = function (a, b, k) { k(a*b) }
@@ -55,6 +56,39 @@ describe('Arrow', function () {
       arrow(3, function (n) {
         expect(arguments).to.have.length(1)
         expect(n).to.equal(42)
+        done()
+      })
+    })
+  })
+
+  describe('.pureN', function () {
+    it('creates an arrow from a pure function', function (done) {
+      var pure = function () {
+        expect(arguments).to.have.length(0)
+        return 42
+      }
+
+      var arrow = Arrow.pureN(pure)
+      expect(arrow).to.satisfy(Arrow.isArrow)
+
+      arrow(99, function (x, y) {
+        expect(arguments).to.have.length(2)
+        expect(x).to.equal(42) 
+        expect(y).to.equal(99)
+        done()
+      })
+    })
+  })
+
+  describe('.value', function () {
+    it('creates an arrow that yields a constant value', function (done) {
+      var a = Arrow.value(42) 
+      var b = Arrow.value(24)
+      expect(a).to.satisfy(Arrow.isArrow)
+      a(99, function (x, y) {
+        expect(arguments).to.have.length(2)
+        expect(x).to.equal(42)
+        expect(y).to.equal(99)
         done()
       })
     })
