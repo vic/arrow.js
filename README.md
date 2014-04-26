@@ -5,6 +5,10 @@ Arrow.js
 
 *Just for Fun*
 
+### Status
+
+WIP
+
 ### Is it any good?
 
 [Yes](https://news.ycombinator.com/item?id=3067434)
