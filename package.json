@@ -4,7 +4,13 @@
   "description": "A tiny concatenative, tacit language built upon Arrowized Functional Reactive Programming theory.",
   "main": "arrows.js",
   "scripts": {
-    "test": "mocha"
+    "test": "make test"
+  },
+  "config": {
+    "blanket": {
+      "pattern": "lib",
+      "data-cover-never": "node_modules"
+    }
   },
   "repository": {
     "type": "git",
@@ -29,6 +35,7 @@
   "devDependencies": {
     "mocha": "*",
     "chai": "*",
+    "blanket": "*",
     "browserify": "*"
   }
 }
