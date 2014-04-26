@@ -33,6 +33,8 @@ This was made by Victor Hugo Borja (vic) under the MIT license. I'm [@vborja](ht
 
 #### Concatenative languages, Combinators and Birds
 
+[S and K - RISC Machine](http://www.cs.rit.edu/~ats/plt-2005-1/ski.pdf)
+
 [The Theory of Concatenative Combinators](http://tunes.org/~iepos/joy.html)
 
 [To Mock a Mocking Bird](http://en.wikipedia.org/wiki/To_Mock_a_Mockingbird)
@@ -44,5 +46,4 @@ This was made by Victor Hugo Borja (vic) under the MIT license. I'm [@vborja](ht
 [Finding Joy in Combinators](https://github.com/raganwald/homoiconic/blob/master/2008-11-16/joy.md)
 
 [Kestrels](https://github.com/raganwald/homoiconic/blob/master/2008-10-29/kestrel.markdown)
-
 
