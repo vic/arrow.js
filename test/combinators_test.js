@@ -79,4 +79,25 @@ describe('Combinators', function () {
     })
   })
 
+  describe("unit", function () {
+    it('creates a quote of top level item', function (done) {
+      _.unit(33, function (x){
+        x(function (v){ 
+          expect(v).to.equal(33)
+          done()
+        })
+      })
+    }) 
+  })
+
+  describe("K", function () {
+    it('removes second element', function (done) {
+      _.K(22, 33, function (v){
+        expect(v).to.equal(22)
+        expect(arguments).to.have.length(1)
+        done()
+      })
+    })
+  })
+
 })
