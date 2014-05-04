@@ -19,7 +19,7 @@ describe('parser', function () {
   })
 
   it('parses an empty quotation', function (done) {
-    parser("[]", gnd, function (err, prg) {
+    parser("[]", gnd, function (err, prg, code) {
       expect(err).to.eql(null)
       prg(function (v) { 
         expect(v).to.eql(combinators.noop)
