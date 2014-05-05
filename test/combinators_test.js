@@ -1,14 +1,8 @@
 var expect = require('chai').expect
 
 describe('Combinators', function () {
-  
+
   var _ = require('../lib/combinators')
-
-})
-
-describe.skip('Combinators', function () {
-
-  //var _ = require('../lib/combinators')
 
   describe('k', function () {
     it('discards second item on stack and executes first', function (done) {
@@ -58,6 +52,16 @@ describe.skip('Combinators', function () {
             done()
           })
         })        
+      })
+    })
+  })
+
+  describe('zap', function () {
+    it('drops top level item', function (done) { 
+      _.zap(1, 2, function (x) {
+        expect(arguments).to.have.length(1)
+        expect(x).to.equal(2)
+        done()
       })
     })
   })
