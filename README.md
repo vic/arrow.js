@@ -51,3 +51,4 @@ This was made by Victor Hugo Borja (vic) under the MIT license. I'm [@vborja](ht
 
 [Kestrels](https://github.com/raganwald/homoiconic/blob/master/2008-10-29/kestrel.markdown)
 
+[A Conversation with Manfred von Thun](http://www.nsl.com/papers/interview.htm)
