@@ -3,6 +3,7 @@ var expect = require('chai').expect
 describe('Combinators', function () {
 
   var _ = require('../lib/combinators')
+  var $ = require('../lib/ground')
 
   describe('k', function () {
     it('discards second item on stack and executes first', function (done) {

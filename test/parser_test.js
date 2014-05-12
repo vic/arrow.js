@@ -50,5 +50,12 @@ describe('parser', function () {
     })
   })
 
+  it('creates a chain of literals on stack', function (done) {
+    parser("1 2 3", _.gnd, function (err, prg, code) {
+      expect(err).to.eql(null) 
+      done()
+    })
+  })
+
 
 })
