@@ -35,6 +35,8 @@ This was made by Victor Hugo Borja (vic) under the MIT license. I'm [@vborja](ht
 
 [Hudak: Yampa, Arrows, and Robots](http://www.cs.yale.edu/homes/hudak/CS429F04/LectureSlides/YampaForCs429.ppt)
 
+[ Out of the Tar Pit ](http://shaffner.us/cs/papers/tarpit.pdf)
+
 #### Concatenative languages, Combinators and Birds
 
 [S and K - RISC Machine](http://www.cs.rit.edu/~ats/plt-2005-1/ski.pdf)
